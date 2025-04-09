@@ -4,7 +4,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { AiFillTikTok } from 'react-icons/ai';
 import { FaYoutube } from 'react-icons/fa';
 
-import Experience from './components/experience';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
 import About from './components/About';
 import GradientCursor from './components/GradientCursor';
