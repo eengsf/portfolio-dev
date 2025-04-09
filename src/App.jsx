@@ -9,7 +9,7 @@ import About from './components/About';
 import GradientCursor from './components/GradientCursor';
 import NavItem from './components/NavItem';
 import Robotic from './components/Robotic';
-import Experience from './components/experience';
+import Experiences from './components/Experiences';
 
 const sosmed = [
   {
@@ -151,7 +151,7 @@ function App() {
             ref={experienceRef}
             className="w-full scroll-mt-24"
           >
-            <Experience/>
+            <Experiences/>
           </section>
           <section
             id="projects"
