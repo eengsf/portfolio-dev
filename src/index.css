@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #0f172a;
+  --color-secondary: #566175;
+  --color-tertiary: #69d3ce;
+  --color-light: #cdd8ed;
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-primary);
+}
+
+::selection {
+  background-color: var(--color-tertiary); /* Tailwind's yellow-300 */
+  color: var(--color-primary);
+}
