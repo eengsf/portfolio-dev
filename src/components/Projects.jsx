@@ -60,7 +60,7 @@ const listProjects = [
 const Projects = () => {
   return (
     <>
-      <div className="flex gap-3 items-center mb-3">
+      <div className="flex gap-3 items-center lg:static sticky top-0   py-3 lg:bg-transparent backdrop-blur-lg bg-primary/10 lg:-mx-0 md:-mx-12 -mx-7 lg:px-0 md:px-12 px-7">
         <h2 className="text-2xl text-light align-middle font-bold">Projects</h2>
         <span className="w-1/4 h-[0.25px] bg-light"></span>
       </div>
@@ -70,7 +70,7 @@ const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
           key={index}
-          className="flex items-start gap-4 mb-5 cursor-pointer hover:bg-tertiary/10 p-5 rounded-lg transition-all duration-150"
+          className="flex sm:flex-row flex-col-reverse items-start gap-4 mb-5 cursor-pointer lg:hover:bg-tertiary/10 p-5 rounded-lg transition-all duration-150 lg:bg-transparent bg-tertiary/10 "
         >
           <div className="w-36 h-20 rounded-md overflow-hidden bg-gray-100 flex items-center justify-center">
             <img src={item.image} alt={item.name} className=" object-cover" />

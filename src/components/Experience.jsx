@@ -33,12 +33,12 @@ const listEx = [
 function Experience() {
   return (
     <>
-      <div className="flex gap-3 items-center mb-3">
+      <div className="flex gap-3 items-center lg:static sticky top-0  md:px-12 px-7 py-3 lg:bg-transparent backdrop-blur-lg bg-primary/10">
         <h2 className="text-2xl text-light align-middle font-bold">Experience</h2>
         <span className="w-1/4 h-[0.25px] bg-light"></span>
       </div>
       {listEx.map((item, index) => (
-        <div key={index} className='mb-2'>
+        <div key={index} className='mb-2 md:px-12 px-7'>
           <h2 className=" text-light font-semibold">{item.name}</h2>
           <p className="text-tertiary text-sm">{item.date}</p>
           <ul className="list-disc pl-6 text-secondary">

@@ -29,7 +29,7 @@ function Robotic() {
         key={index}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-start gap-4 mb-1 cursor-pointer hover:bg-tertiary/10 p-5 rounded-lg transition-all duration-150"
+        className="flex sm:flex-row flex-col-reverse items-start sm:gap-4 gap-0 cursor-pointer lg:hover:bg-tertiary/10 rounded-lg transition-all duration-150 mb-5 lg:bg-transparent bg-tertiary/10 p-5"
       >
         <div className="w-36 h-20 rounded-md overflow-hidden bg-gray-100 flex items-center justify-center">
           <img src={item.image} alt={item.name} className=" object-cover" />

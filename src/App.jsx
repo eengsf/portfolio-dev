@@ -4,12 +4,12 @@ import { FaLinkedin } from 'react-icons/fa';
 import { AiFillTikTok } from 'react-icons/ai';
 import { FaYoutube } from 'react-icons/fa';
 
-import Experience from './components/Experience';
 import Projects from './components/Projects';
 import About from './components/About';
 import GradientCursor from './components/GradientCursor';
 import NavItem from './components/NavItem';
 import Robotic from './components/Robotic';
+import Experience from './components/experience';
 
 const sosmed = [
   {
@@ -136,7 +136,7 @@ function App() {
             ))}
           </ul>
         </header>
-        <main className="lg:pl-[50%] w-full lg:max-h-full h-fit lg:overflow-y-auto lg:pt-24 pt-10 md:px-12 px-7 flex flex-col gap-24 scroll-smooth">
+        <main className="lg:pl-[45%] w-full lg:max-h-full h-fit lg:overflow-y-auto lg:pt-24 pt-10  flex flex-col gap-24 scroll-smooth ">
           <section
             id="about"
             data-section="about"
@@ -151,20 +151,20 @@ function App() {
             ref={experienceRef}
             className="w-full scroll-mt-24"
           >
-            <Experience />
+            <Experience/>
           </section>
           <section
             id="projects"
             data-section="projects"
             ref={projectsRef}
-            className="w-full scroll-mt-24"
+            className="w-full scroll-mt-24 md:px-12 px-7"
           >
             <Projects />
           </section>
-          <section className="w-full">
+          <section className="w-full md:px-12 px-7">
             <Robotic />
           </section>
-          <footer className=" text-secondary lg:pb-10 pb-5 lg:text-start text-center">
+          <footer className=" text-secondary lg:pb-10 pb-5 lg:text-start text-center md:px-12 px-0">
             <div className="max-w-6xl px-4">
               <p className="text-sm text-tertiary">Shofiyul Fuad | Programmer</p>
               <p className="text-sm mt-1">
